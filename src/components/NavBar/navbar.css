@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color: #151515; 
+}
+
+header {
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    height: 40px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navLink {
+    list-style-type: none;
+}
+
+.navLink a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
